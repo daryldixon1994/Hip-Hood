@@ -1,0 +1,9 @@
+.container {
+    
+}
+.face_rating{
+    cursor: pointer;
+}
+input[type="radio"]{
+    display: none;
+}

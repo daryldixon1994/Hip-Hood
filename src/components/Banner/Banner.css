@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "bungeeshade";
+    src: url("./Home/fonts/Bungee-Shade-webfont.eot");
+    src: url("./Home/fonts/Bungee-Shade-webfont.eot?#iefix")
+            format("embedded-opentype"),
+        url("./Home/fonts/Bungee-Shade-webfont.woff") format("woff"),
+        url("./Home/fonts/Bungee-Shade-webfont.ttf") format("truetype"),
+        url("./Home/fonts/Bungee-Shade-webfont.svg#bungeeshade") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+.dt-Banner-container {
+    background-color: rgb(24, 15, 107);
+    padding: 0px 15px 10px 35px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dt-Banner-box {
+    color: rgb(207, 3, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.dt-Banner-box h1 {
+    color: rgb(207, 3, 248);
+    font-size: 3em;
+    font-family: "bungeeshade";
+}
+.dt-banner-logo {
+    margin-right: 20px;
+}
+.tb-banner-home {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.tb-banner-home h2 {
+    margin-left: 10px;
+    color: white;
+}
+
+.dt-banner-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.search-area {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(207, 3, 248);
+}

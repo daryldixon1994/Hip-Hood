@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "bungeeinline";
+    src: url("./fonts/Bungee-Inline-webfont.eot");
+    src: url("./fonts/Bungee-Inline-webfont.eot?#iefix")
+            format("embedded-opentype"),
+        url("./fonts/Bungee-Inline-webfont.woff") format("woff"),
+        url("./fonts/Bungee-Inline-webfont.ttf") format("truetype"),
+        url("./fonts/Bungee-Inline-webfont.svg#bungeeinline") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "bungeeshade";
+    src: url("./fonts/Bungee-Shade-webfont.eot");
+    src: url("./fonts/Bungee-Shade-webfont.eot?#iefix")
+            format("embedded-opentype"),
+        url("./fonts/Bungee-Shade-webfont.woff") format("woff"),
+        url("./fonts/Bungee-Shade-webfont.ttf") format("truetype"),
+        url("./fonts/Bungee-Shade-webfont.svg#bungeeshade") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'college_condensedregular';
+    src: url('./fonts/COLLEGEC-webfont.eot');
+    src: url('./fonts/COLLEGEC-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/COLLEGEC-webfont.woff') format('woff'),
+         url('./fonts/COLLEGEC-webfont.ttf') format('truetype'),
+         url('./fonts/COLLEGEC-webfont.svg#college_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title {
+    color: blueviolet;
+    font-size: 10em;
+    font-family: "bungeeshade";
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+.intro {
+    font-size: 0.3em;
+    font-family: "bungeeinline";
+    margin-top: 0px;
+    background-color: blueviolet;
+    color: rgb(197, 196, 196);
+}
+.home-visit-link {
+    margin-left: 50px;
+    background-color: blueviolet;
+    color: rgb(162, 247, 92);
+    padding: 15px;
+    width: 18%;
+    text-align: center;
+    border-radius: 15px;
+}
+.home-visit-link:hover
+{
+     background-color: rgb(162, 247, 92);
+     color: blueviolet ;
+}
+.home-visit-link > h2{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    
+}
+.home-visit-link > p  {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+.link
+{
+    color:rgb(225, 103, 255) ;
+}
+.home-visit-link-container
+{
+    display: flex;
+}
