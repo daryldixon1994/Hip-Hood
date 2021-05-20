@@ -3,7 +3,7 @@ import "./SongsList.css";
 import SongItem from "../SongItem./SongItem";
 import { songsData } from "../Datas/songsData";
 
-function SongsList({ search }) {
+function SongsList({ search}) {
     const [filtredSongs, setFiltredSongs] = useState([]);
 
     useEffect(() => {
